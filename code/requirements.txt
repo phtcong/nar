@@ -1,0 +1,10 @@
+# Demo runtime (nar_demo.py): metric + sweep
+numpy
+scipy
+pandas
+
+# Visualization (nar_viz.py)
+pillow
+
+# Conversion utilities only (congrid/con_grid_util.py, table.py, postprocess.py)
+pymupdf

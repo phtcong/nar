@@ -1,0 +1,17 @@
+[project]
+name = "tsr-nar-demo"
+version = "0.1.0"
+description = "Minimal self-contained demo for TSR-NAR: Table-Level + Cell-Level Rejection with ConGrid, on pre-computed predictions."
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "pillow",
+]
+
+[project.optional-dependencies]
+convert = ["pymupdf"]  # only needed to regenerate ConGrid JSON from raw model output
+
+[tool.uv]
+package = false  # run scripts via `uv run`; no install-as-module needed
