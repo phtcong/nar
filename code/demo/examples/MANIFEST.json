@@ -1,0 +1,118 @@
+{
+  "source": "PubTables-1M* (test filelist minus image_ignore.txt, 351 GT-error docs removed)",
+  "pred_one": "RT-DETR-X (reference, f1)",
+  "pred_two": "ConRTF (primary/kept, f2)",
+  "selection": "deterministic stride sample of PubTables-1M* in filelist order; buckets: 3 clean-keep, 3 CLR-active, 4 TLR-flag",
+  "examples": [
+    {
+      "name": "PMC1064078_table_0",
+      "bucket": "clean_keep",
+      "tlr_sim": 1.0,
+      "base_f1": 1.0,
+      "clr_f1": 1.0,
+      "base_precision": 1.0,
+      "clr_precision": 1.0,
+      "cell_retention": 1.0,
+      "n_cells": 48
+    },
+    {
+      "name": "PMC1065063_table_1",
+      "bucket": "clean_keep",
+      "tlr_sim": 1.0,
+      "base_f1": 1.0,
+      "clr_f1": 1.0,
+      "base_precision": 1.0,
+      "clr_precision": 1.0,
+      "cell_retention": 1.0,
+      "n_cells": 81
+    },
+    {
+      "name": "PMC1079868_table_0",
+      "bucket": "clean_keep",
+      "tlr_sim": 1.0,
+      "base_f1": 1.0,
+      "clr_f1": 1.0,
+      "base_precision": 1.0,
+      "clr_precision": 1.0,
+      "cell_retention": 1.0,
+      "n_cells": 55
+    },
+    {
+      "name": "PMC3141439_table_1",
+      "bucket": "clr_active",
+      "tlr_sim": 0.9504,
+      "base_f1": 0.9504,
+      "clr_f1": 0.9983,
+      "base_precision": 0.9083,
+      "clr_precision": 1.0,
+      "cell_retention": 0.9083,
+      "n_cells": 327
+    },
+    {
+      "name": "PMC6180182_table_1",
+      "bucket": "clr_active",
+      "tlr_sim": 0.963,
+      "base_f1": 0.963,
+      "clr_f1": 1.0,
+      "base_precision": 0.9286,
+      "clr_precision": 1.0,
+      "cell_retention": 0.9286,
+      "n_cells": 84
+    },
+    {
+      "name": "PMC4841546_table_1",
+      "bucket": "clr_active",
+      "tlr_sim": 0.9577,
+      "base_f1": 0.9645,
+      "clr_f1": 0.9853,
+      "base_precision": 0.9315,
+      "clr_precision": 0.9853,
+      "cell_retention": 0.9315,
+      "n_cells": 73
+    },
+    {
+      "name": "PMC4826195_table_0",
+      "bucket": "tlr_flag",
+      "tlr_sim": 0.4091,
+      "base_f1": 1.0,
+      "clr_f1": 0.5143,
+      "base_precision": 1.0,
+      "clr_precision": 1.0,
+      "cell_retention": 0.3462,
+      "n_cells": 26
+    },
+    {
+      "name": "PMC3214788_table_1",
+      "bucket": "tlr_flag",
+      "tlr_sim": 0.6531,
+      "base_f1": 1.0,
+      "clr_f1": 0.7442,
+      "base_precision": 1.0,
+      "clr_precision": 1.0,
+      "cell_retention": 0.5926,
+      "n_cells": 108
+    },
+    {
+      "name": "PMC3022558_table_0",
+      "bucket": "tlr_flag",
+      "tlr_sim": 0.7778,
+      "base_f1": 0.3571,
+      "clr_f1": 0.3333,
+      "base_precision": 0.25,
+      "clr_precision": 0.2619,
+      "cell_retention": 0.7,
+      "n_cells": 60
+    },
+    {
+      "name": "PMC5012797_table_4",
+      "bucket": "tlr_flag",
+      "tlr_sim": 0.875,
+      "base_f1": 0.9792,
+      "clr_f1": 0.9333,
+      "base_precision": 0.9792,
+      "clr_precision": 1.0,
+      "cell_retention": 0.875,
+      "n_cells": 96
+    }
+  ]
+}

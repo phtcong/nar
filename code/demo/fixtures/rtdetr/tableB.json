@@ -1,0 +1,114 @@
+{
+ "width": 1000,
+ "height": 1000,
+ "rows": [
+  {
+   "name": "header",
+   "class": 0,
+   "bbox": [
+    0,
+    0,
+    1000,
+    500
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "p0 p1",
+   "row": 0
+  },
+  {
+   "name": "row",
+   "class": 2,
+   "bbox": [
+    0,
+    500,
+    1000,
+    1000
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "x ZZZ",
+   "row": 1
+  }
+ ],
+ "columns": [
+  {
+   "name": "column",
+   "class": 1,
+   "bbox": [
+    0,
+    0,
+    500,
+    1000
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "p0 x",
+   "col": 0
+  },
+  {
+   "name": "column",
+   "class": 1,
+   "bbox": [
+    500,
+    0,
+    1000,
+    1000
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "p1 ZZZ",
+   "col": 1
+  }
+ ],
+ "cells": [
+  {
+   "section": 0,
+   "bbox": [
+    0,
+    0,
+    500,
+    500
+   ],
+   "text": "p0",
+   "row": 0,
+   "col": 0
+  },
+  {
+   "section": 0,
+   "bbox": [
+    500,
+    0,
+    1000,
+    500
+   ],
+   "text": "p1",
+   "row": 0,
+   "col": 1
+  },
+  {
+   "section": 0,
+   "bbox": [
+    0,
+    500,
+    500,
+    1000
+   ],
+   "text": "x",
+   "row": 1,
+   "col": 0
+  },
+  {
+   "section": 0,
+   "bbox": [
+    500,
+    500,
+    1000,
+    1000
+   ],
+   "text": "ZZZ",
+   "row": 1,
+   "col": 1
+  }
+ ]
+}

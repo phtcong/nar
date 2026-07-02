@@ -1,0 +1,152 @@
+{
+ "width": 1000,
+ "height": 1000,
+ "rows": [
+  {
+   "name": "header",
+   "class": 0,
+   "bbox": [
+    0,
+    0,
+    1000,
+    333
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "q0 q1",
+   "row": 0
+  },
+  {
+   "name": "row",
+   "class": 2,
+   "bbox": [
+    0,
+    333,
+    1000,
+    666
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "q2 q3",
+   "row": 1
+  },
+  {
+   "name": "row",
+   "class": 2,
+   "bbox": [
+    0,
+    666,
+    1000,
+    1000
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "q4 q5",
+   "row": 2
+  }
+ ],
+ "columns": [
+  {
+   "name": "column",
+   "class": 1,
+   "bbox": [
+    0,
+    0,
+    500,
+    1000
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "q0 q2 q4",
+   "col": 0
+  },
+  {
+   "name": "column",
+   "class": 1,
+   "bbox": [
+    500,
+    0,
+    1000,
+    1000
+   ],
+   "score": 1.0,
+   "section": 0,
+   "text": "q1 q3 q5",
+   "col": 1
+  }
+ ],
+ "cells": [
+  {
+   "section": 0,
+   "bbox": [
+    0,
+    0,
+    500,
+    333
+   ],
+   "text": "q0",
+   "row": 0,
+   "col": 0
+  },
+  {
+   "section": 0,
+   "bbox": [
+    500,
+    0,
+    1000,
+    333
+   ],
+   "text": "q1",
+   "row": 0,
+   "col": 1
+  },
+  {
+   "section": 0,
+   "bbox": [
+    0,
+    333,
+    500,
+    666
+   ],
+   "text": "q2",
+   "row": 1,
+   "col": 0
+  },
+  {
+   "section": 0,
+   "bbox": [
+    500,
+    333,
+    1000,
+    666
+   ],
+   "text": "q3",
+   "row": 1,
+   "col": 1
+  },
+  {
+   "section": 0,
+   "bbox": [
+    0,
+    666,
+    500,
+    1000
+   ],
+   "text": "q4",
+   "row": 2,
+   "col": 0
+  },
+  {
+   "section": 0,
+   "bbox": [
+    500,
+    666,
+    1000,
+    1000
+   ],
+   "text": "q5",
+   "row": 2,
+   "col": 1
+  }
+ ]
+}
